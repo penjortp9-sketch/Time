@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Remote Work Project</title>
+    <title>ChimLa Tabdew - Data Scientist</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <h3>Internship on Bhutan Data Scientist</h3>
-    <!-- Project Title -->
-    <h1>Time and Flexibility in Remote Work in Bhutan</h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRfbw5Yz5Yc4dXkyE2e-NrUX8hl-gsIA40w&s" width="1000">
-    <!-- Project Description -->
-    <p>
-        This project explores how remote workers manage their time and flexibility, 
-        and how these factors influence their individual performance and productivity. 
-        It aims to identify challenges like workload, distractions, and work-life balance, 
-        and provide insights for better remote work practices.
-    </p>
-    <a href="work.html">Check out my projects here.</a>
-    <!-- Random Image Section -->
+    <!-- Add Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">RW</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-
-    <br><br>
-
-    <button onclick="changeImage()">Show Another Image</button>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Badge/Internship Tag -->
+        <div class="badge">Internship on Bhutan Data Scientist</div>
+        
+        <!-- Project Title -->
+        <h1>Time and Flexibility in Remote Work in Bhutan</h1>
+        
+        <!-- Image Container -->
+        <div class="image-container">
+            <img id="projectImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRfbw5Yz5Yc4dXkyE2e-NrUX8hl-gsIA40w&s" 
+                 alt="Remote Work in Bhutan">
+        </div>
+        
+        <!-- Project Description Card -->
+        <div class="description-card">
+            <p>
+                This project explores how remote workers manage their time and flexibility, 
+                and how these factors influence their individual performance and productivity. 
+                It aims to identify challenges like workload, distractions, and work-life balance, 
+                and provide insights for better remote work practices.
+            </p>
+            
+        </div>
+        
+        <!-- CTA Buttons -->
+        <div class="button-group">
+            <a href="work.html" class="primary-btn">View My Projects →</a>
+            <button onclick="changeImage()" class="secondary-btn">Show Another Image</button>
+        </div>
+    </div>
+<!-- Contact Section -->
+<div class="contact-section">
+    <h2>Get In Touch</h2>
+    <div class="contact-info">
+        <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>penjortp9@gamil.com</span>
+        </div>
+        <div class="contact-item">
+            <span class="contact-icon">📱</span>
+            <span>+975 17 595 621 </span>
+        </div>
+        <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Thimphu, Bhutan</span>
+        </div>
+        <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <span>@tshering5377</span>
+        </div>
+    </div>
+</div>
+<!-- About Section -->
+<div class="about-section">
+    <h2>About Me</h2>
+    
+    <div class="about-content">
+        <div class="profile-img">
+            <img src="https://via.placeholder.com/150" alt="ChimLa Tabdew">
+        </div>
+        
+        <h3>ChimLa Tabdew</h3>
+        <p class="role">Data Scientist Intern</p>
+        
+        <p class="bio">"Meet someone who's all about good vibes! When he's not working, you'll find him outdoors playing games, jamming with friends, or belting out tunes. Family's his top priority – loves 'em big time"</p>
+        
+        <div class="fun-fact">
+            <strong>🎤 Fun Fact:</strong> Has a secret talent for singing in the shower (and it's actually pretty good!) Family's his crew – loves making memories with them
+        </div>
+        
+        <div class="social-links">
+            <a href="#" class="social-link">🔗 LinkedIn</a>
+            <a href="#" class="social-link">💻 GitHub</a>
+        </div>
+        
+        <div class="achievement">
+            <strong>🏆 Achievement:</strong> Completed Data Science Internship at Bhutan Data Scientist
+        </div>
+    </div>
+</div>
+    <!-- Add Footer -->
+    <footer>
+        <p>&copy; 2024 ChimLa Tabdew. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
